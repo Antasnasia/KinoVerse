@@ -31,10 +31,15 @@ h1, h2 {
 h2 {
 	font-size: 140%;
 }
-a, a:hover {
+a {
 	outline: none;
 	text-decoration: underline;
 	color: #aeb002;
+}
+a:hover {
+	outline: none;
+	color: black;
+	text-decoration: underline;
 }
 
 ul {
