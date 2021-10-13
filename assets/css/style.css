@@ -203,7 +203,9 @@ width: 250px;
 	color: #49945a;
 	margin-right: 3%;
 }
-
+.content iframe {
+	width: 100%;
+}
 .description_film {
 	margin-bottom: 15%;
 
@@ -213,6 +215,9 @@ width: 250px;
 	margin-right: 2%;
 	border-radius: 5px;
 	border: solid 5px #dad7d5;
+	width: 150px;
+	height: 200px;
+	box-sizing: cover;
 }
 .reviews {
 	margin-bottom: 4%;
@@ -264,6 +269,7 @@ border-radius: 5px;
 color: #aeb002;
 }
 .feedback_form .btn {
+	display: block;
 	width: 100px;
 }
 .info_film {
@@ -340,7 +346,7 @@ td img {
 /* css mobile */
 @media only screen 
 and (min-device-width: 320px) 
-and (max-device-width: 568px) {
+and (max-device-width: 768px) {
 .header{
 	background-color: #257965;
 	min-width: 100%;
@@ -385,6 +391,7 @@ ul.menu li {
 }
 .films_block img {
 	width: 43%;
+	height: 80%;
 }
 .posts_content p{
 line-height: 1.5em;
@@ -439,6 +446,7 @@ iframe {
 .description_film img {
 	float: none;
 	width: 73%;
+	height: 90%;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -455,5 +463,10 @@ width: 96%;
 .send textarea {
 	width: 85%;
 }
+/*feedback page*/
 
+.feedback_form .btn {
+	text-align: center;
+	margin: 0 auto;
+}
 }
